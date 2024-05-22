@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: repeating-radial-gradient(gray, white 10%,
+  black 10%);
+  /* background: gray; */
+  padding-top: 130px;
+  font-size: 100px;
+  perspective: 1000px;
+  
+}
+.sphere{
+  width: 3em;
+  height: 3em;
+  margin:  auto;
+  align-items: center;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: sphere 10s infinite ease-in-out;
+}
+/* @keyframes spher {
+  0%{
+    transform: translate3d(200px,0px,0) rotateX(30deg) rotateY(30deg);
+  }
+  30%{
+    transform: translate3d(150px,50px,0) rotateZ(30deg) rotateY(60deg)
+  }
+  60%{
+    transform: translate3d(100px,100px,0) rotateX(60deg) rotateY(90deg)
+  }
+  90%{
+    transform: translate3d(50px,150px,0) rotateX(90deg) rotateZ(120deg)
+  }
+  100%{
+    transform: translate3d(0px,200px,0) rotateZ(30deg) rotateY(30deg)
+  }
+} */
+@keyframes sphere {
+  0%{
+    transform: rotateY(360deg) ;
+  }
+}
+.sphere0{
+  width: 3em;
+  height: 3em;
+  /* background: green; */
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  position: absolute;
+}
+
+/* .sphere01{
+  width: 3em;
+  height: 3em;
+  clip-path: circle(50%);
+   background: green; 
+  margin-left:  50%;
+  
+  transform: translate(-50%);
+  position: absolute;
+ 
+} */
+ 
+.sphere1{
+  transform:  rotateY(72deg);
+   border:4px dashed green;
+}
+.sphere2{
+  transform:  rotateY(114deg);
+  border:4px dashed red;
+}
+.sphere3{
+  border:4px dashed purple ;
+  transform:  rotateY(186deg);
+}
+.sphere4{
+   border:4px dashed lightblue;
+  transform:  rotateY(258deg);
+}
+.sphere5{
+   border:4px dashed orange;
+  transform:  rotateY(360deg);
+}
+.sphere6{
+   border:4px dashed yellow ;
+    transform:  rotateX(72deg);
+}
+.sphere7{
+  border: 4px dashed saddlebrown;
+  transform:  rotateX(114deg);
+}
+.sphere8{
+   border: 4px dashed gold;
+  transform:  rotateX(186deg);
+}
+.sphere9{
+   border: 4px dashed mediumorchid;
+  transform:  rotateX(258deg);
+}
+.sphere10{
+  border: 4px dashed navajowhite;
+  transform:  rotateX(360deg);
+}
+.sphere11{
+  border: 4px dashed chocolate;
+  transform: rotateY(90deg) rotateZ(72deg);
+ }
+
+.sphere12{
+   border: 4px dashed fuchsia;
+   transform: rotateY(90deg)  rotateZ(114deg);
+
+}
+.sphere13{
+   border: 4px dashed darkgrey
+   transform: rotateY(90deg)  rotateZ(186deg);
+
+}
+.sphere14{
+   border: 4px dashed lime;
+   transform: rotateY(90deg)  rotateZ(258deg);
+
+}
+.sphere15{
+   border: 4px dashed peru;
+   transform: rotateY(90deg)  rotateZ(360deg);
+
+}
